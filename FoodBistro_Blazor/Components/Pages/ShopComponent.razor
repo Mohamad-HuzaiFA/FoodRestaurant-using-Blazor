@@ -1,0 +1,83 @@
+﻿@page "/shop"
+@rendermode InteractiveServer
+@using FoodBistro_Blazor.Services
+@using FoodBistro_Blazor.Models
+
+@inject ICartService cartService
+@inject ProductService productService
+
+
+<div class="container-fluid">
+    <h2 class="text-center py-3 fw-bold" style="font-family: 'A Love of Thunder', Sans-serif;color:yellow; font-size: 54px; font-weight: 400;">
+        Let's Eat
+    </h2>
+
+    <div class="search-container d-flex align-items-center justify-content-center my-4">
+        <div class="input-group" style="width: 60%; max-width: 500px;">
+            <input type="text" class="form-control shadow-sm" id="searchText" @bind="searchText" placeholder="Search for products..."
+                   style="border-top-left-radius: 25px; border-bottom-left-radius: 25px; padding: 10px; font-size: 16px;" />
+            <button class="btn btn-primary shadow-sm" @onclick="SearchProducts"
+                    style="border-top-right-radius: 25px; border-bottom-right-radius: 25px; padding: 10px 20px; font-size: 16px;">
+                🔍 Search
+            </button>
+        </div>
+    </div>
+
+    <div id="content">
+        @foreach (var category in Categories)
+        {
+            <div class="row justify-content-start text-center p-4">
+                <h1 class="text-start mb-5" style="color:yellow">@category</h1>
+
+                @foreach (var product in Products.Where(p => p.Category == category.ToLower()))
+                {
+                    <div class="col-6 col-md-3 mb-4">
+                        <div class="card">
+                            <img src="@product.ImgUrl" class="card-img-top" style="height:350px; object-fit: cover;" alt="Product Image">
+                            <hr />
+                            <div class="card-body p-2">
+                                <h5 class="card-title fs-6">@product.Name</h5>
+                                <p class="card-text fs-6">Rs. @product.Price</p>
+                                <a href="/details/@product.Category"><button class="btn btn-primary">View Details</button></a>
+                            @*     <button class="btn btn-success btn-sm" @onclick="(() 
+                                                                             => AddToCart(product))">Add To Cart</button> *@
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private string searchText;
+    private List<string> Categories = new List<string> { "BURGER", "PIZZA" };
+
+    // private List<Product> Products = new List<Product>
+    // {
+    //     new Product { Id = 1, Name = "Classic Burger", Price = 250, Category = "burger", ImgUrl = "Assets/Products/pro-02.png" },
+    //     new Product { Id = 2, Name = "Cheese Pizza", Price = 500, Category = "pizza", ImgUrl = "Assets/Products/pro-03.png" }
+    // };
+
+    private List<Product> Products;
+    private List<Product> SearchProducts_;
+
+    protected override void OnInitialized()
+    {
+        Products = productService.GetProducts();
+    }
+
+    private void AddToCart(Product product)
+    {
+        cartService.AddProduct(product);
+    }
+
+    private void SearchProducts()
+    {
+        if (!string.IsNullOrEmpty(searchText))
+        {
+            SearchProducts_ = Products.Where(p => p.Name.Contains(searchText, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+    }
+}

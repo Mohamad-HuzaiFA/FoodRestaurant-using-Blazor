@@ -1,0 +1,73 @@
+﻿@page "/signup"
+
+@rendermode InteractiveServer
+@using FoodBistro_Blazor.Models
+@using FoodBistro_Blazor.Services
+
+@inject NavigationManager Navigation
+@inject IUserService userService
+
+<div class="d-flex vh-100 position-relative overflow-hidden" style="background: url('/Assets/bgsignup.jpg') no-repeat center center; background-size: cover; color: #eaeaea;">
+    <!-- Background blur overlay -->
+    <div class="background-blur" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5);"></div>
+
+    <!-- Centered form container -->
+    <div class="d-flex justify-content-center align-items-center w-100 position-relative">
+        <div class="card p-4 shadow" style="width: 22rem; background-color: #333; color: #eaeaea;">
+            <h2 class="text-center mb-4">Sign-Up</h2>
+
+            <EditForm Model="@newUser" OnValidSubmit="HandleSignup">
+                <hr />
+
+                <div class="mb-3">
+                    <label for="firstNameInput" class="form-label text-light">First Name</label>
+                    <input @bind="newUser.FirstName" id="firstNameInput" class="form-control bg-dark text-light" placeholder="John" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="lastNameInput" class="form-label text-light">Last Name</label>
+                    <input @bind="newUser.LastName" id="lastNameInput" class="form-control bg-dark text-light" placeholder="Doe" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="emailInput" class="form-label text-light">Email</label>
+                    <input @bind="newUser.Email" id="emailInput" class="form-control bg-dark text-light" placeholder="name@example.com" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="passwordInput" class="form-label text-light">Password</label>
+                    <input @bind="newUser.Password" id="passwordInput" type="password" class="form-control bg-dark text-light" placeholder="password" />
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary w-75">Sign Up</button>
+                </div>
+
+                <div class="text-danger text-center mt-3">
+                    <!-- Placeholder for error message -->
+                </div>
+
+                <div class="text-center mt-4">
+                    <p>Already have an account? <a href="/login" class="text-decoration-none">Log In</a></p>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    private User newUser = new User();
+
+    private async Task HandleSignup()
+    {
+        bool result = userService.RegisterUser(newUser);
+        if (result)
+        {
+            Navigation.NavigateTo("/login");
+        }
+        else
+        {
+            //Optional
+        }
+    }
+}

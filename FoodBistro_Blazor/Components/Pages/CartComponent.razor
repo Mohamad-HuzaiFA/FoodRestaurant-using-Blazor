@@ -1,0 +1,52 @@
+﻿@page "/cart"
+
+
+@rendermode InteractiveServer
+@using FoodBistro_Blazor.Models
+@using FoodBistro_Blazor.Services
+@inject ICartService cartService
+
+<h3 class="text-center">Your Cart</h3>
+
+@if (cartService.Cart.Any())
+{
+    <div class="container mt-4">
+        <div class="row">
+            @foreach (var product in cartService.Cart)
+            {
+                <div class="col-12 mb-2">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="@product.ImgUrl" class="img-fluid rounded-start" style="height: 100px; object-fit: cover;" alt="@product.Name">
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.Name</h5>
+                                    <p class="card-text">Price: Rs. @product.Price</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-flex align-items-center justify-content-center">
+                                <button class="btn btn-danger" @onclick="() => RemoveProduct(product)">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <hr />
+        <h4 class="text-end">Total: Rs. @cartService.Total</h4>
+    </div>
+}
+else
+{
+    <p>Your cart is empty.</p>
+}
+
+@code {
+    private void RemoveProduct(Product product)
+    {
+        cartService.DeleteProduct(product);
+        StateHasChanged();  // Force UI update after removing an item
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\logincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\logincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginComponent.razor",
+              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
+              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
+              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
+              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
+              "ViewState": "AQIAAFsAAAAANDMzMzMLwJ8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T16:05:02.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

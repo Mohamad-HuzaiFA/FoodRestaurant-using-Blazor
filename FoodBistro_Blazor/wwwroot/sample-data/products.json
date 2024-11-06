@@ -1,0 +1,37 @@
+[
+  {
+    "productId": 1,
+    "productName": "Classic Burger",
+    "price": 5,
+     "category": "burger",
+    "image": "pro-02.png"
+  },
+  {
+    "productId": 2,
+    "productName": "Cheese Pizza",
+    "price": 10,
+    "category": "pizza",
+    "image": "pro-03.png"
+  },
+  {
+    "productId": 3,
+    "productName": "Classic Burger",
+    "price": 5,
+    "category": "burger",
+    "image": "pro-02.png"
+  },
+  {
+    "productId": 4,
+    "productName": "Cheese Pizza",
+    "price": 10,
+    "category": "pizza",
+    "image": "pro-03.png"
+  },
+  {
+    "productId": 5,
+    "productName": "Classic Burger",
+    "price": 5,
+    "category": "burger",
+    "image": "pro-02.png"
+  }
+]

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FoodBistro_Blazor.props" />
+</Project>
