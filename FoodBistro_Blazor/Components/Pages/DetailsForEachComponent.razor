@@ -45,9 +45,9 @@
 
     private List<Product> Products;
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        Products = productService.GetProducts();
+        Products = await productService.GetProducts();
     }
 
     // private List<Product> Products = new List<Product>

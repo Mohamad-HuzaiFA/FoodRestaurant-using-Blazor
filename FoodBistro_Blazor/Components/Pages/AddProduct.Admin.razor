@@ -1,0 +1,57 @@
+﻿@page "/addprod"
+
+@rendermode InteractiveServer
+@using FoodBistro_Blazor.Services
+@using FoodBistro_Blazor.Models
+@using FoodBistro_Blazor.Components.Layout
+
+@inject NavigationManager Navigation
+@inject ProductService productService
+
+<LayoutAdmin>
+    <div id="content" style="font-family: 'Roboto', sans-serif; background: url('https://images.pexels.com/photos/326281/pexels-photo-326281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center; background-size: cover; min-height: calc(100vh - 80px); position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7);"></div>
+
+        <div class="container d-flex justify-content-center align-items-center h-100 position-relative">
+            <div class="card p-4 shadow-lg rounded" style="width: 25rem; background-color: rgba(255, 255, 255, 0.95);">
+                <h2 class="text-center text-dark mb-4" style="font-weight: 700;">Add Product to Menu</h2>
+
+                <EditForm Model="@product" OnValidSubmit="HandleValidSubmit">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary class="text-danger mb-3" />
+
+                    <div class="form-floating mb-3">
+                        <InputText id="Name" class="form-control" @bind-Value="product.Name" placeholder="Name" />
+                        <label for="Name">Product Name</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <InputNumber id="Price" class="form-control" @bind-Value="product.Price" placeholder="Price" />
+                        <label for="Price">Price ($)</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <InputText id="Category" class="form-control" @bind-Value="product.Category" placeholder="Category" />
+                        <label for="Category">Category</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <InputTextArea id="ImgUrl" class="form-control" @bind-Value="product.ImgUrl" placeholder="Image URL" />
+                        <label for="ImgUrl">Image URL</label>
+                    </div>
+
+                    <button class="btn btn-primary w-100 fw-bold py-2 mt-3" type="submit">Add Product</button>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</LayoutAdmin>
+
+@code {
+    private Product product = new Product();
+
+    private async Task HandleValidSubmit()
+    {
+        // Logic to handle product submission
+    }
+}

@@ -8,8 +8,9 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents(); // Only if using interactive components, otherwise you can skip this.
 
 builder.Services.AddTransient<IUserService>(_ => new UserService("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=BistroManagement;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"));
+builder.Services.AddTransient<IProductService>(_ => new ProductService("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=BistroManagement;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"));
 builder.Services.AddSingleton<ICartService, CartService>(); // Cart service is registered as Singleton
-builder.Services.AddSingleton<ProductService>();
+//builder.Services.AddSingleton<ProductService>();
 
 // Add support for static files (e.g., images, CSS, JS)
 builder.Services.AddControllersWithViews();

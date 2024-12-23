@@ -1,6 +1,26 @@
-﻿<Router AppAssembly="typeof(Program).Assembly">
+﻿@* <Router AppAssembly="typeof(Program).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
         <FocusOnNavigate RouteData="routeData" Selector="h1" />
     </Found>
+</Router>
+ *@
+<Router AppAssembly="typeof(Program).Assembly">
+    <Found Context="routeData">
+        @if (routeData.PageType == typeof(Pages.AddProduct_Admin) @* ||
+        routeData.PageType == typeof(AnotherNoLayoutPage) *@)
+        {
+            <!-- Pages without layout -->
+            <RouteView RouteData="routeData" DefaultLayout="null" />
+        }
+        else
+        {
+            <!-- Pages with MainLayout -->
+            <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
+        }
+        <FocusOnNavigate RouteData="routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <h1>Page not found</h1>
+    </NotFound>
 </Router>

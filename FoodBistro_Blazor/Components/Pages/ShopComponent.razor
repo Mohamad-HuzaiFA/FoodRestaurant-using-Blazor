@@ -54,18 +54,13 @@
     private string searchText;
     private List<string> Categories = new List<string> { "BURGER", "PIZZA" };
 
-    // private List<Product> Products = new List<Product>
-    // {
-    //     new Product { Id = 1, Name = "Classic Burger", Price = 250, Category = "burger", ImgUrl = "Assets/Products/pro-02.png" },
-    //     new Product { Id = 2, Name = "Cheese Pizza", Price = 500, Category = "pizza", ImgUrl = "Assets/Products/pro-03.png" }
-    // };
-
     private List<Product> Products;
     private List<Product> SearchProducts_;
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        Products = productService.GetProducts();
+        Products = await productService.GetProducts();
+        SearchProducts_ = Products;
     }
 
     private void AddToCart(Product product)

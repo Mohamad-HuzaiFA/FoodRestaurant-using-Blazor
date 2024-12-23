@@ -73,6 +73,18 @@
       "PackagePath": "staticwebassets\\Assets\\bgsignup.jpg"
     },
     {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\cart1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\cart1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\cartimg.jpg",
+      "PackagePath": "staticwebassets\\Assets\\cartimg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\cartimgg.png",
+      "PackagePath": "staticwebassets\\Assets\\cartimgg.png"
+    },
+    {
       "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\facebook.png",
       "PackagePath": "staticwebassets\\Assets\\facebook.png"
     },

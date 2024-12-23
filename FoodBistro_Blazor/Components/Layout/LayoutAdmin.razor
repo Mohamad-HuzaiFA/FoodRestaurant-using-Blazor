@@ -1,0 +1,24 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
+
+<div class="header bg-dark text-light py-3 shadow" style="position: sticky; top: 0; z-index: 10; font-family: 'Roboto', sans-serif;">
+    <div class="container d-flex justify-content-between align-items-center">
+        <h1 class="mb-0 text-uppercase text-black" style="font-size: 1.5rem; font-weight: bold;">Admin Panel</h1>
+        <button class="btn btn-outline-light btn-danger" @onclick="Logout">Logout</button>
+    </div>
+</div>
+
+<main>
+    @ChildContent
+</main>
+
+@code {
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    private void Logout()
+    {
+        // Navigate to login or clear session
+        Navigation.NavigateTo("/login", true);
+    }
+}
