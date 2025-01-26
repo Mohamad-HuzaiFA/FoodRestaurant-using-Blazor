@@ -1,6 +1,7 @@
 ﻿@page "/"
 @page "/login"
 
+@layout RegisterComponent
 @rendermode InteractiveServer
 @inject NavigationManager Navigation
 @inject IUserService userService
@@ -53,7 +54,7 @@
             bool result = await userService.AuthenticateUserAsync(newUser_.Email, newUser_.Password);
             if (result)
             {
-                if (newUser_.Email.Equals("admin@FoodBistro.com", StringComparison.OrdinalIgnoreCase))
+                if (newUser_.Email.Equals("huzaif@FoodBistro.com", StringComparison.OrdinalIgnoreCase))
                 {
                     Navigation.NavigateTo("/addprod");
                 }

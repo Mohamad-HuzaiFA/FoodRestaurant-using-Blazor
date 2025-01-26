@@ -1,0 +1,17 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
+
+<div class="header bg-dark text-light py-3 shadow" style="position: sticky; top: 0; z-index: 10; font-family: 'Roboto', sans-serif;">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="navbar-brand fs-2 fw-bold" style="color: yellow; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);" href="home">FoodBistro</a>
+    </div>
+</div>
+
+<main>
+    @Body
+</main>
+
+@code {
+    // [Parameter]
+    // public RenderFragment? ChildContent { get; set; }
+}

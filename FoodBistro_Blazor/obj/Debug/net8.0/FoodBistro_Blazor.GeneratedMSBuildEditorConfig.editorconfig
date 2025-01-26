@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTGF5b3V0QWRtaW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Huzaifa Nazeer/source/repos/FoodBistro_Blazor/FoodBistro_Blazor/Components/Layout/RegisterComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUmVnaXN0ZXJDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Huzaifa Nazeer/source/repos/FoodBistro_Blazor/FoodBistro_Blazor/Components/Pages/AboutComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBYm91dENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

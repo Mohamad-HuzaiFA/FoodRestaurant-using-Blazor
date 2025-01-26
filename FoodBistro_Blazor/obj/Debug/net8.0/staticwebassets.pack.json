@@ -33,6 +33,26 @@
       "PackagePath": "staticwebassets\\Assets\\Products\\29347_uhd.jpg"
     },
     {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Cheese Cake.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\Cheese Cake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Cheese Pizza.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\Cheese Pizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Chilli cheese fries.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\Chilli cheese fries.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Classic sweet potato fries.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\Classic sweet potato fries.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Pastery.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\Pastery.jpg"
+    },
+    {
       "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Pro-01.webp",
       "PackagePath": "staticwebassets\\Assets\\Products\\Pro-01.webp"
     },
@@ -41,8 +61,40 @@
       "PackagePath": "staticwebassets\\Assets\\Products\\Pro.jpg"
     },
     {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Regular fries.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\Regular fries.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Strawberry IceCream.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\Strawberry IceCream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Vegan pizza.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\Vegan pizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\baconBurger.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\baconBurger.jpg"
+    },
+    {
       "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\bghome.png",
       "PackagePath": "staticwebassets\\Assets\\Products\\bghome.png"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\burger.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\burger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\icecream.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\icecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\pattyBurger.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\pattyBurger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\pepperoni.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\pepperoni.jpg"
     },
     {
       "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\pro-02.png",
@@ -53,8 +105,20 @@
       "PackagePath": "staticwebassets\\Assets\\Products\\pro-03.png"
     },
     {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\waferRolls.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Products\\waferRolls.jpg"
+    },
+    {
       "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Team.jpg",
       "PackagePath": "staticwebassets\\Assets\\Team.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\adminbreakingBad.jpg",
+      "PackagePath": "staticwebassets\\Assets\\adminbreakingBad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\adminn.jpg",
+      "PackagePath": "staticwebassets\\Assets\\adminn.jpg"
     },
     {
       "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\bgaboutus.jpg",

@@ -7,102 +7,43 @@
       "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\editproductadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\addproduct.admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\addproduct.admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\cartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\cartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\logincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\logincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\detailsforeachcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\detailsforeachcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\shopcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\shopcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BistroManagement/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BistroManagement/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\layout\\layoutadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\layout\\layoutadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\aboutcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\aboutcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\shopcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\shopcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\logincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\logincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\layout\\registercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\layout\\registercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\signupcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\signupcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\addproduct.admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\addproduct.admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BistroManagement/True/SqlTable/dbo.Product.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|c:\\users\\huzaifa nazeer\\source\\repos\\foodbistro_blazor\\foodbistro_blazor\\components\\layout\\layoutadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7097407A-352A-420B-8B23-E59309C9F85E}|FoodBistro_Blazor\\FoodBistro_Blazor.csproj|solutionrelative:foodbistro_blazor\\components\\layout\\layoutadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -112,21 +53,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "FoodBistro_Blazor\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T07:32:07.231Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
@@ -137,306 +65,143 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Models\\User.cs",
+              "RelativeToolTip": "FoodBistro_Blazor\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:48:25.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Models\\Product.cs",
+              "RelativeToolTip": "FoodBistro_Blazor\\Models\\Product.cs",
+              "ViewState": "AQIAAAMAAABAMjMzMzMbwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:48:09.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShopComponent.razor",
+              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\ShopComponent.razor",
+              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\ShopComponent.razor",
+              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\ShopComponent.razor",
+              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\ShopComponent.razor",
+              "ViewState": "AQIAABwAAAAANDMzMzMLwCcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:38:00.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:34:45.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Products [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BistroManagement/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-15T07:36:03.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EditProductAdmin.razor",
               "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\EditProductAdmin.razor",
               "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\EditProductAdmin.razor",
               "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\EditProductAdmin.razor",
               "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\EditProductAdmin.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "ViewState": "AQIAAAwAAACAmZmZmRkQwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:27:22.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddProduct.Admin.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\AddProduct.Admin.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\AddProduct.Admin.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\AddProduct.Admin.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\AddProduct.Admin.razor",
-              "ViewState": "AQIAACUAAACAZmZmZiYwwDMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T17:11:13.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICartService.cs",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Interfaces\\ICartService.cs",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Interfaces\\ICartService.cs",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Interfaces\\ICartService.cs",
-              "RelativeToolTip": "FoodBistro_Blazor\\Interfaces\\ICartService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T11:40:36.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Services\\CartService.cs",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Services\\CartService.cs",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Services\\CartService.cs",
-              "RelativeToolTip": "FoodBistro_Blazor\\Services\\CartService.cs",
-              "ViewState": "AQIAABcAAADgx8zMzMwuwBoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T06:54:05.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Services\\ProductService.cs",
-              "RelativeToolTip": "FoodBistro_Blazor\\Services\\ProductService.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAmwGIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T06:50:41.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CartComponent.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\CartComponent.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\CartComponent.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\CartComponent.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\CartComponent.razor",
-              "ViewState": "AQIAACEAAAAAJDMzMzPrvzYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T06:55:04.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginComponent.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
-              "ViewState": "AQIAACwAAACQAQAAAAAhwD0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T16:05:02.723Z",
+              "WhenOpened": "2025-01-26T19:36:14.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DetailsForEachComponent.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\DetailsForEachComponent.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\DetailsForEachComponent.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\DetailsForEachComponent.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\DetailsForEachComponent.razor",
-              "ViewState": "AQIAAB0AAABAZmZmZuYswBEAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T06:53:36.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ShopComponent.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\ShopComponent.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\ShopComponent.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\ShopComponent.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\ShopComponent.razor",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T06:51:18.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Models\\Product.cs",
-              "RelativeToolTip": "FoodBistro_Blazor\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T11:38:15.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T18:44:03.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "dbo.Products [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BistroManagement/True/SqlTable/dbo.Products.sql",
-              "ToolTip": "dbo.Products [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-15T07:36:03.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LayoutAdmin.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\LayoutAdmin.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Layout\\LayoutAdmin.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\LayoutAdmin.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Layout\\LayoutAdmin.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T17:52:13.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T18:14:05.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AboutComponent.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\AboutComponent.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\AboutComponent.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\AboutComponent.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\AboutComponent.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T11:24:23.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "SignupComponent.razor",
               "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\SignupComponent.razor",
               "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\SignupComponent.razor",
               "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\SignupComponent.razor",
               "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\SignupComponent.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "ViewState": "AQIAADAAAAAAZmZmZmYUwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T18:21:32.439Z"
+              "WhenOpened": "2025-01-26T19:16:01.195Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "RegisterComponent.razor",
+              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\RegisterComponent.razor",
+              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Layout\\RegisterComponent.razor",
+              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\RegisterComponent.razor",
+              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Layout\\RegisterComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T06:54:39.48Z"
+              "WhenOpened": "2025-01-26T19:14:55.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\_Imports.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T08:12:53.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "FoodBistro_Blazor\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T06:44:38.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Services\\UserService.cs",
-              "RelativeToolTip": "FoodBistro_Blazor\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T06:44:42.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\appsettings.json",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\appsettings.json",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\appsettings.json",
-              "RelativeToolTip": "FoodBistro_Blazor\\appsettings.json",
+              "DocumentIndex": 10,
+              "Title": "LayoutAdmin.razor",
+              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\LayoutAdmin.razor",
+              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Layout\\LayoutAdmin.razor",
+              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Layout\\LayoutAdmin.razor",
+              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Layout\\LayoutAdmin.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-23T17:39:19.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Routes.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Routes.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T18:13:40.425Z"
+              "WhenOpened": "2025-01-26T19:17:37.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\App.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\App.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\App.razor",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBQAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "LoginComponent.razor",
+              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
+              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
+              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
+              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\LoginComponent.razor",
+              "ViewState": "AQIAADEAAAAAAAAAAABUPToAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T17:40:21.934Z"
+              "WhenOpened": "2025-01-26T19:15:39.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\Counter.razor",
-              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\Counter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "DocumentIndex": 9,
+              "Title": "AddProduct.Admin.razor",
+              "DocumentMoniker": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\AddProduct.Admin.razor",
+              "RelativeDocumentMoniker": "FoodBistro_Blazor\\Components\\Pages\\AddProduct.Admin.razor",
+              "ToolTip": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\Components\\Pages\\AddProduct.Admin.razor",
+              "RelativeToolTip": "FoodBistro_Blazor\\Components\\Pages\\AddProduct.Admin.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T14:01:33.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "dbo.Product [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BistroManagement/True/SqlTable/dbo.Product.sql",
-              "ToolTip": "dbo.Product [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-21T11:36:11.939Z"
+              "WhenOpened": "2025-01-26T19:15:24.156Z",
+              "EditorCaption": ""
             }
           ]
         }

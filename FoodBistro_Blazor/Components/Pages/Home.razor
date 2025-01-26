@@ -1,5 +1,8 @@
 ﻿@page "/home"
 
+@inject IProductService productService
+
+
 <PageTitle>Home</PageTitle>
 
 <div class="d-flex flex-column justify-content-center align-items-center text-center bg-light" style="height: 50vh; background: url('Assets/bghome.png') no-repeat center center; background-size: cover; color: #eaeaea; position: relative;">
@@ -33,7 +36,9 @@
     <h2 class="text-center py-3 fw-bold pb-5 pt-5" style="font-family: 'A Love of Thunder', Sans-serif; font-size: 54px; font-weight: 400; color: #ffcc00;">Featured Products</h2>
     <div class="row justify-content-center text-center p-4">
 
-        <div class="col-12 col-sm-6 col-md-3 mb-4">
+
+
+        @* <div class="col-12 col-sm-6 col-md-3 mb-4">
             <div class="card border-0 shadow-lg rounded-3 overflow-hidden" style="transition: transform 0.3s ease, box-shadow 0.3s ease;">
                 <img src="Assets/Products/pro-02.png" class="card-img-top rounded-top" style="height: 350px; object-fit: cover; transition: transform 0.3s ease;" alt="...">
                 <div class="card-body p-4" style="background-color: #3a3a3a; color: #eaeaea; border-top: 2px solid #ff9068;">
@@ -114,7 +119,44 @@
                     <a href="/details/pizza" class="btn btn-warning btn-sm shadow-sm" style="border-radius: 25px; transition: background-color 0.3s ease, transform 0.3s ease;">Add To Cart</a>
                 </div>
             </div>
-        </div>
+        </div> *@
+
+        
+          @if (products != null && products.Any())
+         {
+            @foreach (var product in products)
+            {
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                    <div class="card border-0 shadow-lg rounded-3 overflow-hidden" style="transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                        <img src="@product.ImgUrl" class="card-img-top rounded-top" style="height: 350px; object-fit: cover; transition: transform 0.3s ease;" alt="...">
+                        <div class="card-body p-4" style="background-color: #3a3a3a; color: #eaeaea; border-top: 2px solid #ff9068;">
+                            <h5 class="card-title fs-5 fw-bold">@product.Name</h5>
+                            @* <p class="card-text fs-6">Get the best from the best!</p> *@
+                            <hr style="border-color: #eaeaea;" />
+                            <p class="card-text fs-6 fw-bold">@product.Price</p>
+                            <a href="/details/@product.Id ?? 0" class="btn btn-warning btn-sm shadow-sm" style="border-radius: 25px; transition: background-color 0.3s ease, transform 0.3s ease;">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            }
+      
+}
 
     </div>
 </div>
+
+@code{
+    private List<Product> products = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            products = await productService.GetProducts() ?? new List<Product>();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching products: {ex.Message}");
+        }
+    }
+}

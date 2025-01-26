@@ -4,7 +4,56 @@
 
 @inject IProductService productService
 
-<h3 class="text-center">Admin Panel - Manage Products</h3>
+<div class="admin-panel-container">
+    <h3 class="admin-panel-title">
+        Admin Panel - Manage Products
+    </h3>
+</div>
+
+<style>
+    /* Background image with full coverage */
+    .admin-panel-container {
+        background-image: url('Assets/adminn.jpg');
+        background-size: cover; /* Ensures the image covers the container completely */
+        background-position: center center; /* Keeps the image centered */
+        background-repeat: no-repeat;
+        padding: 100px 20px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        position: relative;
+    }
+
+    /* Title styling */
+    .admin-panel-title {
+        color: yellow;
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin: 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Optional: Add a slight gradient overlay */
+    .admin-panel-container:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4); /* Adds dark overlay for contrast */
+        border-radius: 15px;
+        z-index: 0;
+    }
+</style>
+
+
+
+
 
 @if (products != null && products.Any())
 {
