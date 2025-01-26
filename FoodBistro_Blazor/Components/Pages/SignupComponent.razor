@@ -1,8 +1,6 @@
 ﻿@page "/signup"
 
 @rendermode InteractiveServer
-@using FoodBistro_Blazor.Models
-@using FoodBistro_Blazor.Services
 
 @inject NavigationManager Navigation
 @inject IUserService userService
@@ -62,7 +60,7 @@
 
     private async Task HandleSignup()
     {
-        bool result = userService.RegisterUser(newUser);
+        bool result = await userService.RegisterUserAsync(newUser);
         if (result)
         {
             Navigation.NavigateTo("/login");

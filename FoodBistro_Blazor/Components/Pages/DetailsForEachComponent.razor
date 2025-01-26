@@ -1,15 +1,14 @@
-﻿@page "/details/{cat}"
+﻿@page "/details/{id:int}"
 @rendermode InteractiveServer
-@using FoodBistro_Blazor.Services
-@using FoodBistro_Blazor.Models
+
 @inject NavigationManager Navigation
 
 @inject ICartService cartService
-@inject ProductService productService
+@inject IProductService productService
 
-@if (cat == "burger" || cat == "pizza")
+@if (id != null)
 {
-    var product = Products.FirstOrDefault(p => p.Category == cat);
+    var product = Products.FirstOrDefault(p => p.Id == id);
     if (product != null)
     {
         <div class="container-fluid m-2 bg-light">
@@ -40,21 +39,16 @@
 }
 
 @code {
-    [Parameter]
-    public string? cat { get; set; }
 
-    private List<Product> Products;
+    [Parameter]
+    public int? id { get; set; }
+
+    private List<Product> Products = new List<Product>();
 
     protected override async Task OnInitializedAsync()
     {
         Products = await productService.GetProducts();
     }
-
-    // private List<Product> Products = new List<Product>
-    // {
-    //     new Product { Id = 1, Name = "Classic Burger", Price = 250, Category = "burger", ImgUrl = "Assets/Products/pro-02.png" },
-    //     new Product { Id = 2, Name = "Cheese Pizza", Price = 500, Category = "pizza", ImgUrl = "Assets/Products/pro-03.png" }
-    // };
 
     private void AddToCart(Product product)
     {

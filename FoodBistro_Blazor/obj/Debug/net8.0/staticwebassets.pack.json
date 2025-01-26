@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\Assets\\Products\\Pro.jpg"
     },
     {
+      "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\bghome.png",
+      "PackagePath": "staticwebassets\\Assets\\Products\\bghome.png"
+    },
+    {
       "Id": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\pro-02.png",
       "PackagePath": "staticwebassets\\Assets\\Products\\pro-02.png"
     },

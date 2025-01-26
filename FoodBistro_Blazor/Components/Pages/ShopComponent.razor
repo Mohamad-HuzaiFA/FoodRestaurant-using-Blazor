@@ -1,11 +1,8 @@
 ﻿@page "/shop"
 @rendermode InteractiveServer
-@using FoodBistro_Blazor.Services
-@using FoodBistro_Blazor.Models
 
 @inject ICartService cartService
-@inject ProductService productService
-
+@inject IProductService productService
 
 <div class="container-fluid">
     <h2 class="text-center py-3 fw-bold" style="font-family: 'A Love of Thunder', Sans-serif;color:yellow; font-size: 54px; font-weight: 400;">
@@ -24,55 +21,84 @@
     </div>
 
     <div id="content">
-        @foreach (var category in Categories)
+        @if (FilteredProducts.Any())
         {
-            <div class="row justify-content-start text-center p-4">
-                <h1 class="text-start mb-5" style="color:yellow">@category</h1>
+            @foreach (var category in FilteredCategories)
+            {
+                <div class="row justify-content-start text-center p-4">
+                    <h1 class="text-start mb-5" style="color:yellow">@category.ToUpper()</h1>
 
-                @foreach (var product in Products.Where(p => p.Category == category.ToLower()))
-                {
-                    <div class="col-6 col-md-3 mb-4">
-                        <div class="card">
-                            <img src="@product.ImgUrl" class="card-img-top" style="height:350px; object-fit: cover;" alt="Product Image">
-                            <hr />
-                            <div class="card-body p-2">
-                                <h5 class="card-title fs-6">@product.Name</h5>
-                                <p class="card-text fs-6">Rs. @product.Price</p>
-                                <a href="/details/@product.Category"><button class="btn btn-primary">View Details</button></a>
-                            @*     <button class="btn btn-success btn-sm" @onclick="(() 
-                                                                             => AddToCart(product))">Add To Cart</button> *@
+                    @foreach (var product in FilteredProducts.Where(p => p.Category.Equals(category, StringComparison.OrdinalIgnoreCase)))
+                    {
+                        <div class="col-6 col-md-3 mb-4">
+                            <div class="card">
+                                <img src="@product.ImgUrl" class="card-img-top" style="height:350px; object-fit: cover;" alt="Product Image">
+                                <hr />
+                                <div class="card-body p-2">
+                                    <h5 class="card-title fs-6">@product.Name</h5>
+                                    <p class="card-text fs-6">Rs. @product.Price</p>
+                                    <a href="/details/@product.Id ?? 0"><button class="btn btn-primary">View Details</button></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                }
+                    }
+                </div>
+            }
+        }
+        else
+        {
+            <div class="text-center">
+                <h4 class="text-danger">No products found matching your search criteria.</h4>
             </div>
         }
     </div>
 </div>
 
 @code {
-    private string searchText;
-    private List<string> Categories = new List<string> { "BURGER", "PIZZA" };
-
-    private List<Product> Products;
-    private List<Product> SearchProducts_;
+    private string searchText = string.Empty;
+    private List<string> Categories = new();
+    private List<Product> Products = new();
+    private List<Product> FilteredProducts = new();
+    private List<string> FilteredCategories = new();
 
     protected override async Task OnInitializedAsync()
     {
-        Products = await productService.GetProducts();
-        SearchProducts_ = Products;
+        try
+        {
+            Products = await productService.GetProducts() ?? new List<Product>();
+            Categories = Products.Select(p => p.Category).Distinct().ToList();
+            ResetFilters();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching products: {ex.Message}");
+        }
+    }
+
+    private void SearchProducts()
+    {
+        if (!string.IsNullOrWhiteSpace(searchText))
+        {
+            FilteredProducts = Products
+                .Where(p => p.Name.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+                            p.Category.Contains(searchText, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+            FilteredCategories = FilteredProducts.Select(p => p.Category).Distinct().ToList();
+        }
+        else
+        {
+            ResetFilters();
+        }
+    }
+
+    private void ResetFilters()
+    {
+        FilteredProducts = Products;
+        FilteredCategories = Categories;
     }
 
     private void AddToCart(Product product)
     {
         cartService.AddProduct(product);
-    }
-
-    private void SearchProducts()
-    {
-        if (!string.IsNullOrEmpty(searchText))
-        {
-            SearchProducts_ = Products.Where(p => p.Name.Contains(searchText, StringComparison.OrdinalIgnoreCase)).ToList();
-        }
     }
 }

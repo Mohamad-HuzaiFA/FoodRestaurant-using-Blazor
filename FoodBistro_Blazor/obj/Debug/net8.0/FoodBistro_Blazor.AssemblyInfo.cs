@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodBistro_Blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+455de7db7431fd005fc58ed3924b8a3bc1939ccd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55e24827128b261b290a9bbccced2ee2241053ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodBistro_Blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodBistro_Blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

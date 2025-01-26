@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IqoO/WZ5/M/kuiWs4PWgZjr/WZYxDd8IhjIlJn2m6OA=",
+  "Hash": "r4Ip6md4uuwle4XHta94OlbK3/mSlZlD9lxtQF2hny8=",
   "Source": "FoodBistro_Blazor",
   "BasePath": "_content/FoodBistro_Blazor",
   "Mode": "Default",
@@ -414,6 +414,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\Products\\29347_uhd.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\bghome.png",
+      "SourceId": "FoodBistro_Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\",
+      "BasePath": "_content/FoodBistro_Blazor",
+      "RelativePath": "Assets/Products/bghome.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Products\\bghome.png"
     },
     {
       "Identity": "C:\\Users\\Huzaifa Nazeer\\source\\repos\\FoodBistro_Blazor\\FoodBistro_Blazor\\wwwroot\\Assets\\Products\\Pro.jpg",
